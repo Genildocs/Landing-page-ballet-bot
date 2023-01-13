@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap'); 
+
+*{
+    background: #8E5D52;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-around;    
+    border-bottom: 1px solid white;
+}
+
+.image-header{
+    margin-top: 18px;
+    margin-left: 368px;
+    margin-bottom: 16px;
+    position: relative;
+    right: 250px;
+}
+
+.links{
+    margin-top: 32px;
+}
+
+.link-header{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFF2E7;
+    margin-right: 45px;
+    text-decoration: none;
+}
+
+.main-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-one{
+    margin-top: 110px;    
+    margin-left: 100px;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 79px;
+    color: #FFF2E7;
+    font-family: 'Righteous', cursive;
+    margin-bottom: 32px;
+}
+
+.section-paragraph{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    color: #ECD6C4;
+    font-family: 'Sarala', sans-serif;
+    margin-bottom: 34px;
+}
+
+button{
+    padding: 14px 30px 12px 30px;
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    text-align: center;
+    background: #ECD6C4;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+}
